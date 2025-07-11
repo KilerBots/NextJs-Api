@@ -1,10 +1,10 @@
 function Error({ statusCode }) {
   return (
-    <p>
+    <h1>
       {statusCode
         ? `An error ${statusCode} occurred on server`
         : 'An error occurred on client'}
-    </p>
+    </h1>
   )
 }
  
